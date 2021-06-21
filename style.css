@@ -162,7 +162,7 @@ fieldset{
 .link-primary {background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA  51%, #9D50BB  100%)}
 .link-primary {
    margin: 5px;
-   padding: 12px 30px;
+   padding: 10px 16px;
    text-align:left;
    transition: 0.5s;
    background-size: 200% auto;
@@ -171,8 +171,8 @@ fieldset{
    box-shadow: 0 0 20px #eee;
    border-radius: 10px;
    display: block;
-   width: 175px;
-   height: 50px;
+   width: 150px;
+   height: 45px;
  }
 
  .link-primary:hover {
@@ -184,7 +184,7 @@ fieldset{
 .link-secondary {background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA  51%, #9D50BB  100%)}
 .link-secondary {
    margin: 5px;
-   padding: 12px 30px;
+   padding: 10px 16px;
    text-align:left;
    transition: 0.5s;
    background-size: 200% auto;
@@ -193,8 +193,8 @@ fieldset{
    box-shadow: 0 0 20px #eee;
    border-radius: 10px;
    display: block;
-   width: 175px;
-   height: 50px;
+   width: 150px;
+   height: 45px;
  }
 
  .link-secondary:hover {
