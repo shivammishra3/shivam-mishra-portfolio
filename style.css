@@ -6,6 +6,10 @@
     --dark-gray: #6B7280;
 }
 
+i{
+    margin: 0.25em;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
@@ -65,6 +69,11 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+#list-ow {
+    padding-top: 0rem;
+    background-color: var(--off-white);
+}
+
 /** header **/
 
 .hero {
@@ -106,26 +115,33 @@ hr {
 
 /** footers **/
 
-.footer {
-    background-color: var(--primary-color);
-    padding: 2.5rem 1rem;
-    text-align :center;
-    color: white;
-    border-top-right-radius: 1.5rem;
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-.footer .link {
-    color: white;
-    
+#footer-header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 27px;
 }
 
-.footer .footer-header {
-    font-size: larger;
-    font-weight: bold;
+legend {
+    text-align: center;
 }
 
-
-
+fieldset{
+    height: 119px;
+    border: 3px solid rgb(34, 34, 34);
+    border-radius: 0.3rem;
+    margin: 0;
+}
 /** links **/
 
 .link {
@@ -134,25 +150,51 @@ hr {
     padding: 0.5rem 1rem;
 }
 
-.link-primary {
-    background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
-    margin: 1rem 1rem 1rem 0rem;
-    display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
-}
 
+.link-primary {background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA  51%, #9D50BB  100%)}
+.link-primary {
+   margin: 5px;
+   padding: 12px 30px;
+   text-align:left;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   font-size: large;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   width: 175px;
+   height: 50px;
+ }
+
+ .link-primary:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.link-secondary {background-image: linear-gradient(to right, #9D50BB 0%, #6E48AA  51%, #9D50BB  100%)}
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    margin: 1rem 1rem 1rem 0rem;
-    display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
-}
+   margin: 5px;
+   padding: 12px 30px;
+   text-align:left;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   font-size: large;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   width: 175px;
+   height: 50px;
+ }
+
+ .link-secondary:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
 
 /** for projects **/
 
@@ -170,9 +212,4 @@ hr {
 
 .margin-md {
     margin: 2rem;
-}
-
-#list-ow {
-    padding-top: 0rem;
-    background-color: var(--off-white);
 }
