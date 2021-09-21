@@ -1,4 +1,9 @@
-# portfolio
+# My Portfolio
+
+- Presenting my portfolio & showcasing my various skills, projects, blogs that I'm aware of.
+
+# Built in
+- HTML & CSS
 
 Representing my personal portfolio
 
